@@ -16,7 +16,6 @@ int main(){
 	e = rsa_encrypt(S, m, pubKey);
 
 	printBN("The result is: ", e);
-	printf("\n");
 
     return 0;
 }
